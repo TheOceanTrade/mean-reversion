@@ -1,0 +1,19 @@
+{
+  "name": "mean-reversion",
+  "version": "1.0.0",
+  "description": "Sample code for a mean reversion strategy bot using The Ocean X ",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-watch src/index.js --presets es2015"
+  },
+  "author": "ari@theoceanx.com",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-watch": "^2.0.7"
+  },
+  "dependencies": {
+    "the-ocean-x": "^0.4.10"
+  }
+}
