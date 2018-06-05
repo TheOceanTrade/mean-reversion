@@ -1,4 +1,4 @@
-import createOcean from 'the-ocean-x'
+import createOcean from 'the-ocean'
 import Web3 from 'web3'
 
 let position = 'out'
@@ -12,7 +12,7 @@ const update = async () => {
     api: {
       key: process.env.OCEAN_API_KEY,
       secret: process.env.OCEAN_API_SECRET,
-      baseURL: 'https://kovan.theoceanx.com/api/v0'
+      baseURL: 'https://api.staging.theocean.trade/api/v0'
     },
     web3Provider: provider
   })

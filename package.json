@@ -14,6 +14,6 @@
     "babel-watch": "^2.0.7"
   },
   "dependencies": {
-    "the-ocean-x": "^0.4.10"
+    "the-ocean": "^1.0.1"
   }
 }
